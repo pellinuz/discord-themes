@@ -1,0 +1,15 @@
+/* @name cat theme
+   @author Pellinuz
+   @description Changes the background of Discord to a rotating cat gif
+   @updateURL https://raw.githubusercontent.com/pellinuz/discord-things/master/theme/theme.theme.css
+*/
+
+:root {
+    --background-image: url('https://media.discordapp.net/attachments/788212021622734869/834674377449668608/image0.gif');
+}
+
+.appMount-3lHmkl {
+    background-image: var(--background-image) !important;
+    background-size: cover !important;
+    background-position: center !important;
+}

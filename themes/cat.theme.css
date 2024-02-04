@@ -6,6 +6,8 @@
  * @website https://pellinuz.github.io
  */
 
+@import url(https://pellinuz.github.io/discord-things/themes/cat.theme.css);
+
 :root {
 	--background-image: url('https://media.discordapp.net/attachments/788212021622734869/834674377449668608/image0.gif');
 }

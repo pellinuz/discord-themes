@@ -5,11 +5,17 @@
 */
 
 :root {
-    --background-image: url('https://media.discordapp.net/attachments/788212021622734869/834674377449668608/image0.gif');
+	--background-image: url('https://media.discordapp.net/attachments/788212021622734869/834674377449668608/image0.gif');
+}
+
+body {
+	background-image: var(--background-image) !important;
+	background-size: cover !important;
+	background-position: center !important;
 }
 
 .appMount-3lHmkl {
-    background-image: var(--background-image) !important;
-    background-size: cover !important;
-    background-position: center !important;
+	background-image: var(--background-image) !important;
+	background-size: cover !important;
+	background-position: center !important;
 }
